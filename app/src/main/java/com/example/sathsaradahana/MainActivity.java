@@ -151,6 +151,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn11 = findViewById(R.id.btn11);
         Button btn12 = findViewById(R.id.btn12);
         Button btn13 = findViewById(R.id.btn13);
+        Button rst = findViewById(R.id.btnrst);
 
         // Set click listeners
         btn1.setOnClickListener(v -> sendData("1"));
@@ -162,10 +163,11 @@ public class MainActivity extends AppCompatActivity {
         btn7.setOnClickListener(v -> sendData("7"));
         btn8.setOnClickListener(v -> sendData("8"));
         btn9.setOnClickListener(v -> sendData("9"));
-        btn10.setOnClickListener(v -> sendData("10"));
-        btn11.setOnClickListener(v -> sendData("11"));
-        btn12.setOnClickListener(v -> sendData("12"));
-        btn13.setOnClickListener(v -> sendData("13"));
+        btn10.setOnClickListener(v -> sendData("a"));
+        btn11.setOnClickListener(v -> sendData("b"));
+        btn12.setOnClickListener(v -> sendData("c"));
+        btn13.setOnClickListener(v -> sendData("d"));
+        rst.setOnClickListener(v -> sendData("r"));
     }
 
     private void sendData(String data) {
