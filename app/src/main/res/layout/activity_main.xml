@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
@@ -17,6 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_anchor="@+id/constraintLayout"
+
         app:layout_anchorGravity="center">
 
 
@@ -37,8 +39,8 @@
             android:layout_width="136dp"
             android:layout_height="100dp"
             android:layout_marginBottom="2dp"
-            android:background="#4C4C4C"
-            android:backgroundTint="#4C4C4C"
+            android:background="#FFA500"
+            android:backgroundTint="#FFA500"
             android:text="8"
             app:layout_constraintBottom_toTopOf="@+id/btn11"
             app:layout_constraintEnd_toStartOf="@+id/btn9"
@@ -49,8 +51,8 @@
             android:id="@+id/btn6"
             android:layout_width="136dp"
             android:layout_height="100dp"
-            android:background="#4C4C4C"
-            android:backgroundTint="#4C4C4C"
+            android:background="#FFA500"
+            android:backgroundTint="#FFA500"
             android:text="6"
             app:layout_constraintBottom_toBottomOf="@+id/btn5"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +63,7 @@
             android:layout_width="136dp"
             android:layout_height="100dp"
             android:background="#4C4C4C"
-            android:backgroundTint="#4C4C4C"
+            android:backgroundTint="#FFA500"
             android:backgroundTintMode="add"
             android:text="4"
             app:layout_constraintBottom_toBottomOf="@+id/btn5"
@@ -98,6 +100,7 @@
             android:layout_height="100dp"
             android:background="#4C4C4C"
             android:backgroundTint="#4C4C4C"
+            android:drawableTint="@color/black"
             android:text="1"
             app:layout_constraintBottom_toBottomOf="@+id/btn2"
             app:layout_constraintStart_toStartOf="parent"

@@ -154,20 +154,93 @@ public class MainActivity extends AppCompatActivity {
         Button rst = findViewById(R.id.btnrst);
 
         // Set click listeners
-        btn1.setOnClickListener(v -> sendData("1"));
-        btn2.setOnClickListener(v -> sendData("2"));
-        btn3.setOnClickListener(v -> sendData("3"));
-        btn4.setOnClickListener(v -> sendData("4"));
-        btn5.setOnClickListener(v -> sendData("5"));
-        btn6.setOnClickListener(v -> sendData("6"));
-        btn7.setOnClickListener(v -> sendData("7"));
-        btn8.setOnClickListener(v -> sendData("8"));
-        btn9.setOnClickListener(v -> sendData("9"));
-        btn10.setOnClickListener(v -> sendData("a"));
-        btn11.setOnClickListener(v -> sendData("b"));
-        btn12.setOnClickListener(v -> sendData("c"));
-        btn13.setOnClickListener(v -> sendData("d"));
-        rst.setOnClickListener(v -> sendData("r"));
+//        btn1.setOnClickListener(v -> sendData("1"));
+//        btn2.setOnClickListener(v -> sendData("2"));
+//        btn3.setOnClickListener(v -> sendData("3"));
+//        btn4.setOnClickListener(v -> sendData("4"));
+//        btn5.setOnClickListener(v -> sendData("5"));
+//        btn6.setOnClickListener(v -> sendData("6"));
+//        btn7.setOnClickListener(v -> sendData("7"));
+//        btn8.setOnClickListener(v -> sendData("8"));
+//        btn9.setOnClickListener(v -> sendData("9"));
+//        btn10.setOnClickListener(v -> sendData("a"));
+//        btn11.setOnClickListener(v -> sendData("b"));
+//        btn12.setOnClickListener(v -> sendData("c"));
+//        btn13.setOnClickListener(v -> sendData("d"));
+//        rst.setOnClickListener(v -> sendData("r"));
+
+
+
+        // Set click listeners with visibility change
+        btn1.setOnClickListener(v -> {
+            sendData("1");
+            btn1.setVisibility(View.INVISIBLE);
+        });
+
+        btn2.setOnClickListener(v -> {
+            sendData("2");
+            btn2.setVisibility(View.INVISIBLE);
+        });
+
+        btn3.setOnClickListener(v -> {
+            sendData("3");
+            btn3.setVisibility(View.INVISIBLE);
+        });
+
+        btn4.setOnClickListener(v -> {
+            sendData("4");
+            btn4.setVisibility(View.INVISIBLE);
+        });
+
+        btn5.setOnClickListener(v -> {
+            sendData("5");
+            btn5.setVisibility(View.INVISIBLE);
+        });
+
+        btn6.setOnClickListener(v -> {
+            sendData("6");
+            btn6.setVisibility(View.INVISIBLE);
+        });
+
+        btn7.setOnClickListener(v -> {
+            sendData("7");
+            btn7.setVisibility(View.INVISIBLE);
+        });
+
+        btn8.setOnClickListener(v -> {
+            sendData("8");
+            btn8.setVisibility(View.INVISIBLE);
+        });
+
+        btn9.setOnClickListener(v -> {
+            sendData("9");
+            btn9.setVisibility(View.INVISIBLE);
+        });
+
+        btn10.setOnClickListener(v -> {
+            sendData("a");
+            btn10.setVisibility(View.INVISIBLE);
+        });
+
+        btn11.setOnClickListener(v -> {
+            sendData("b");
+            btn11.setVisibility(View.INVISIBLE);
+        });
+
+        btn12.setOnClickListener(v -> {
+            sendData("c");
+            btn12.setVisibility(View.INVISIBLE);
+        });
+
+        btn13.setOnClickListener(v -> {
+            sendData("d");
+            btn13.setVisibility(View.INVISIBLE);
+        });
+
+        rst.setOnClickListener(v -> {
+            sendData("r");
+            rst.setVisibility(View.INVISIBLE);
+        });
     }
 
     private void sendData(String data) {
