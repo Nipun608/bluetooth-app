@@ -24,13 +24,15 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="1000dp"
+            android:layout_width="408dp"
             android:layout_height="716dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnrst"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btn13"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/btn4"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="res/drawable/background.jpg" />
+            app:layout_constraintVertical_bias="0.606"
+            tools:srcCompat="@tools:sample/avatars" />
 
         <Button
             android:id="@+id/btn8"
@@ -74,6 +76,7 @@
             android:text="2"
             app:layout_constraintBottom_toTopOf="@+id/btn5"
             app:layout_constraintEnd_toStartOf="@+id/btn3"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/btn1" />
 
         <Button
@@ -151,8 +154,8 @@
 
         <Button
             android:id="@+id/btn13"
-            android:layout_width="400dp"
-            android:layout_height="100dp"
+            android:layout_width="413dp"
+            android:layout_height="103dp"
             android:layout_marginTop="2dp"
             android:backgroundTint="#FFA500"
             android:text="13"
@@ -165,6 +168,7 @@
             android:id="@+id/btnrst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#4C4C4C"
             android:text="Reset"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
